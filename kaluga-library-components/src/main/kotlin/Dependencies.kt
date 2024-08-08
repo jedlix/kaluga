@@ -116,8 +116,8 @@ object Dependencies {
 
         object Play {
             private const val group = "$groupBase.play"
-            val Core = Dependency(group, "core", "1.10.3")
-            val CoreKtx = Dependency(group, "core-ktx", "1.8.1")
+            val Core = Dependency(group, "review", "2.0.1")
+            val CoreKtx = Dependency(group, "review-ktx", "2.0.1")
         }
         object PlayServices {
             private const val group = "$groupBase.gms"
