@@ -250,7 +250,7 @@ sealed interface KalugaButtonStyle<StateStyle : ButtonStateStyle> {
      * @property pressedStyle the [ButtonStateStyle.TextOnly] that the button is in when pressed
      * @property disabledStyle the [ButtonStateStyle.TextOnly] that the button is in when disabled
      */
-    data class TextOnly internal constructor(
+    data class TextOnly constructor(
         override val font: KalugaFont,
         override val textSize: Float,
         override val textAlignment: KalugaTextAlignment,
